@@ -8,7 +8,7 @@ start the container with these commands
 ```
 docker build -t ubuntu-gdb .
 
-docker run --name ubuntu-gdb -v docker-scripts-volume:/app --security-opt seccomp=unconfined -tid ubuntu-gdb-slim
+docker run --name ubuntu-gdb -v docker-scripts-volume:/app --security-opt seccomp=unconfined -tid ubuntu-gdb
 ```
 
 Now you can run the C++ code easily like this (you can edit the code too and run it any time)
