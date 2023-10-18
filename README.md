@@ -18,5 +18,5 @@ Now you can run the C++ code easily like this (you can edit the code too and run
 docker exec -it ubuntu-gdb g++ /app/main.cpp /app/message.cpp -o /app/hello
 
 # exec
-docker exec -it ubuntu-gdb/app/hello
+docker exec -it ubuntu-gdb /app/hello
 ```
